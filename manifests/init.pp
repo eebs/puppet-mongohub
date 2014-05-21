@@ -7,6 +7,6 @@ class mongohub {
   package { "mongohub":
     ensure   => "present",
     provider => 'compressed_app',
-    source => "https://github.com/downloads/fotonauts/MongoHub-Mac/MongoHub.zip"
+    source => "https://mongohub.s3.amazonaws.com/MongoHub.zip"
   }
 }
